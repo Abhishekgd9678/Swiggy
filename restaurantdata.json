@@ -1,0 +1,620 @@
+[
+  {
+    "info": {
+      "id": "69273",
+      "name": "McDonald's",
+      "cloudinaryImageId": "bb7ae131544c7d37e10fc5faf76f09d6",
+      "locality": "Jhansi Rani Lakshmi Bai Road",
+      "areaName": "Chamrajpura",
+      "costForTwo": "₹400 for two",
+      "cuisines": ["Burgers", "Beverages", "Cafe", "Desserts"],
+      "avgRating": 4.3,
+      "feeDetails": {
+        "restaurantId": "69273",
+        "fees": [
+          {
+            "name": "BASE_DISTANCE",
+            "fee": 2000
+          },
+          {
+            "name": "BASE_TIME"
+          },
+          {
+            "name": "ANCILLARY_SURGE_FEE"
+          }
+        ],
+        "totalFee": 2000
+      },
+      "parentId": "630",
+      "avgRatingString": "4.3",
+      "totalRatingsString": "10K+",
+      "sla": {
+        "deliveryTime": 20,
+        "lastMileTravel": 3.9,
+        "serviceability": "SERVICEABLE",
+        "slaString": "20 mins",
+        "lastMileTravelString": "3.9 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2023-11-23 23:45:00",
+        "opened": true
+      },
+      "badges": {},
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "textBased": {},
+          "imageBased": {},
+          "textExtendedBadges": {}
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "10% OFF",
+        "subHeader": "ABOVE ₹1000",
+        "discountTag": "FLAT DEAL"
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {},
+          "video": {}
+        }
+      },
+      "reviewsSummary": {},
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {}
+    },
+    "analytics": {},
+    "cta": {
+      "link": "swiggy://menu?restaurant_id=69273",
+      "text": "RESTAURANT_MENU",
+      "type": "DEEPLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "177015",
+      "name": "Vaibhav Annexe",
+      "cloudinaryImageId": "hcki8i4b4tokyx9yigkk",
+      "locality": "Vani Vilas Double Road",
+      "areaName": "Chamrajpura",
+      "costForTwo": "₹250 for two",
+      "cuisines": [
+        "Biryani",
+        "North Indian",
+        "South Indian",
+        "Chinese",
+        "Desserts"
+      ],
+      "avgRating": 3.8,
+      "feeDetails": {
+        "restaurantId": "177015",
+        "fees": [
+          {
+            "name": "BASE_DISTANCE",
+            "fee": 2100
+          },
+          {
+            "name": "BASE_TIME"
+          },
+          {
+            "name": "ANCILLARY_SURGE_FEE"
+          }
+        ],
+        "totalFee": 2100
+      },
+      "parentId": "8213",
+      "avgRatingString": "3.8",
+      "totalRatingsString": "1K+",
+      "sla": {
+        "deliveryTime": 14,
+        "lastMileTravel": 1.8,
+        "serviceability": "SERVICEABLE",
+        "slaString": "14 mins",
+        "lastMileTravelString": "1.8 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2023-11-23 23:00:00",
+        "opened": true
+      },
+      "badges": {},
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "textBased": {},
+          "imageBased": {},
+          "textExtendedBadges": {}
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "₹100 OFF",
+        "subHeader": "ABOVE ₹249",
+        "discountTag": "FLAT DEAL"
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {},
+          "video": {}
+        }
+      },
+      "reviewsSummary": {},
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {}
+    },
+    "analytics": {},
+    "cta": {
+      "link": "swiggy://menu?restaurant_id=177015",
+      "text": "RESTAURANT_MENU",
+      "type": "DEEPLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "239451",
+      "name": "The Cake Room",
+      "cloudinaryImageId": "bznf8giidccjqwyegpum",
+      "locality": "Chadhuranga road",
+      "areaName": "Kuvempunagar",
+      "costForTwo": "₹300 for two",
+      "cuisines": ["Desserts"],
+      "avgRating": 4.4,
+      "veg": true,
+      "feeDetails": {
+        "restaurantId": "239451",
+        "fees": [
+          {
+            "name": "BASE_DISTANCE",
+            "fee": 1900
+          },
+          {
+            "name": "BASE_TIME"
+          },
+          {
+            "name": "ANCILLARY_SURGE_FEE"
+          }
+        ],
+        "totalFee": 1900
+      },
+      "parentId": "15498",
+      "avgRatingString": "4.4",
+      "totalRatingsString": "5K+",
+      "promoted": true,
+      "adTrackingId": "cid=9554986~p=3~eid=0000018b-fd1e-d657-50e7-f68700b50365~srvts=1700758738519~45826",
+      "sla": {
+        "deliveryTime": 17,
+        "lastMileTravel": 2.9,
+        "serviceability": "SERVICEABLE",
+        "slaString": "17 mins",
+        "lastMileTravelString": "2.9 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2023-11-23 23:59:00",
+        "opened": true
+      },
+      "badges": {},
+      "isOpen": true,
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "textBased": {},
+          "imageBased": {},
+          "textExtendedBadges": {}
+        }
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "₹125 OFF",
+        "subHeader": "ABOVE ₹199",
+        "discountTag": "FLAT DEAL"
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {},
+          "video": {}
+        }
+      },
+      "reviewsSummary": {},
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {}
+    },
+    "analytics": {},
+    "cta": {
+      "link": "swiggy://menu?restaurant_id=239451",
+      "text": "RESTAURANT_MENU",
+      "type": "DEEPLINK"
+    }
+  },
+  {
+    "info": {
+      "id": "84645",
+      "name": "Kafe Biryani Corner",
+      "cloudinaryImageId": "ekzoqwieayl1gdikqay5",
+      "locality": "Saraswathi Road",
+      "areaName": "Kuvempunagar",
+      "costForTwo": "₹400 for two",
+      "cuisines": ["Desserts", "Chinese", "North Indian", "South Indian"],
+      "avgRating": 4.4,
+      "feeDetails": {
+        "restaurantId": "84645",
+        "fees": [
+          {
+            "name": "BASE_DISTANCE",
+            "fee": 1900
+          },
+          {
+            "name": "BASE_TIME"
+          },
+          {
+            "name": "ANCILLARY_SURGE_FEE"
+          }
+        ],
+        "totalFee": 1900
+      },
+      "parentId": "20986",
+      "avgRatingString": "4.4",
+      "totalRatingsString": "10K+",
+      "sla": {
+        "deliveryTime": 16,
+        "lastMileTravel": 2.5,
+        "serviceability": "SERVICEABLE",
+        "slaString": "16 mins",
+        "lastMileTravelString": "2.5 km",
+        "iconType": "ICON_TYPE_EMPTY"
+      },
+      "availability": {
+        "nextCloseTime": "2023-11-23 23:00:00",
+        "opened": true
+      },
+      "badges": {},
+      "isOpen": true,
+      "aggregatedDiscountInfoV2": {},
+      "type": "F",
+      "badgesV2": {
+        "entityBadges": {
+          "imageBased": {},
+          "textExtendedBadges": {},
+          "textBased": {}
+        }
+      },
+      "differentiatedUi": {
+        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        "differentiatedUiMediaDetails": {
+          "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+          "lottie": {},
+          "video": {}
+        }
+      },
+      "reviewsSummary": {},
+      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      "restaurantOfferPresentationInfo": {}
+    },
+    "analytics": {},
+    "cta": {
+      "link": "swiggy://menu?restaurant_id=84645",
+      "text": "RESTAURANT_MENU",
+      "type": "DEEPLINK"
+    }
+  },{
+  "info": {
+    "id": "394839",
+    "name": "Pizza Hut",
+    "cloudinaryImageId": "2b4f62d606d1b2bfba9ba9e5386fabb7",
+    "locality": "Adichunchanagiri Road",
+    "areaName": "Kuvempunagar",
+    "costForTwo": "₹300 for two",
+    "cuisines": [
+    "Pizzas"
+    ],
+    "avgRating": 4,
+    "feeDetails": {
+    "restaurantId": "394839",
+    "fees": [
+    {
+    "name": "BASE_DISTANCE",
+    "fee": 2100
+    },
+    {
+    "name": "BASE_TIME"
+    },
+    {
+    "name": "ANCILLARY_SURGE_FEE"
+    }
+    ],
+    "totalFee": 2100
+    },
+    "parentId": "721",
+    "avgRatingString": "4.0",
+    "totalRatingsString": "1K+",
+    "sla": {
+    "deliveryTime": 21,
+    "lastMileTravel": 1.8,
+    "serviceability": "SERVICEABLE",
+    "slaString": "21 mins",
+    "lastMileTravelString": "1.8 km",
+    "iconType": "ICON_TYPE_EMPTY"
+    },
+    "availability": {
+    "nextCloseTime": "2023-11-23 23:00:00",
+    "opened": true
+    },
+    "badges": {},
+    "isOpen": true,
+    "aggregatedDiscountInfoV2": {},
+    "type": "F",
+    "badgesV2": {
+    "entityBadges": {
+    "textExtendedBadges": {},
+    "textBased": {},
+    "imageBased": {}
+    }
+    },
+    "differentiatedUi": {
+    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+    "differentiatedUiMediaDetails": {
+    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+    "lottie": {},
+    "video": {}
+    }
+    },
+    "reviewsSummary": {},
+    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+    "restaurantOfferPresentationInfo": {}
+    },
+    "analytics": {},
+    "cta": {
+    "link": "swiggy://menu?restaurant_id=394839",
+    "text": "RESTAURANT_MENU",
+    "type": "DEEPLINK"
+    }
+    },
+    {
+    "info": {
+    "id": "584292",
+    "name": "Keventers Ice Cream",
+    "cloudinaryImageId": "e89195f48f0a7e22d4fdecba2dea92de",
+    "locality": "Mall Of Mysore",
+    "areaName": "Mysore South",
+    "costForTwo": "₹200 for two",
+    "cuisines": [
+    "Ice Cream",
+    "Desserts"
+    ],
+    "avgRating": 4.1,
+    "veg": true,
+    "feeDetails": {
+    "restaurantId": "584292",
+    "fees": [
+    {
+    "name": "BASE_DISTANCE",
+    "fee": 2100
+    },
+    {
+    "name": "BASE_TIME"
+    },
+    {
+    "name": "ANCILLARY_SURGE_FEE"
+    }
+    ],
+    "totalFee": 2100
+    },
+    "parentId": "272044",
+    "avgRatingString": "4.1",
+    "totalRatingsString": "100+",
+    "promoted": true,
+    "adTrackingId": "cid=9502902~p=7~eid=0000018b-fd1e-d657-50e7-f68b00b50778~srvts=1700758738519~45826",
+    "sla": {
+    "deliveryTime": 20,
+    "lastMileTravel": 3.6,
+    "serviceability": "SERVICEABLE",
+    "slaString": "20 mins",
+    "lastMileTravelString": "3.6 km",
+    "iconType": "ICON_TYPE_EMPTY"
+    },
+    "availability": {
+    "nextCloseTime": "2023-11-24 01:00:00",
+    "opened": true
+    },
+    "badges": {},
+    "isOpen": true,
+    "type": "F",
+    "badgesV2": {
+    "entityBadges": {
+    "textExtendedBadges": {},
+    "textBased": {},
+    "imageBased": {}
+    }
+    },
+    "aggregatedDiscountInfoV3": {
+    "header": "EVERY ITEM",
+    "subHeader": "@ ₹169"
+    },
+    "differentiatedUi": {
+    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+    "differentiatedUiMediaDetails": {
+    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+    "lottie": {},
+    "video": {}
+    }
+    },
+    "reviewsSummary": {},
+    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+    "restaurantOfferPresentationInfo": {}
+    },
+    "analytics": {},
+    "cta": {
+    "link": "swiggy://menu?restaurant_id=584292",
+    "text": "RESTAURANT_MENU",
+    "type": "DEEPLINK"
+    }
+    },
+    {
+    "info": {
+    "id": "492264",
+    "name": "Chinese Wok",
+    "cloudinaryImageId": "e0839ff574213e6f35b3899ebf1fc597",
+    "locality": "Mall Of Mysore",
+    "areaName": "Ittige Gudu",
+    "costForTwo": "₹250 for two",
+    "cuisines": [
+    "Chinese",
+    "Asian",
+    "Tibetan",
+    "Desserts"
+    ],
+    "avgRating": 3.9,
+    "feeDetails": {
+    "restaurantId": "492264",
+    "fees": [
+    {
+    "name": "BASE_DISTANCE",
+    "fee": 2100
+    },
+    {
+    "name": "BASE_TIME"
+    },
+    {
+    "name": "ANCILLARY_SURGE_FEE"
+    }
+    ],
+    "totalFee": 2100
+    },
+    "parentId": "61955",
+    "avgRatingString": "3.9",
+    "totalRatingsString": "500+",
+    "sla": {
+    "deliveryTime": 24,
+    "lastMileTravel": 3.6,
+    "serviceability": "SERVICEABLE",
+    "slaString": "24 mins",
+    "lastMileTravelString": "3.6 km",
+    "iconType": "ICON_TYPE_EMPTY"
+    },
+    "availability": {
+    "nextCloseTime": "2023-11-24 01:00:00",
+    "opened": true
+    },
+    "badges": {},
+    "isOpen": true,
+    "type": "F",
+    "badgesV2": {
+    "entityBadges": {
+    "textBased": {},
+    "imageBased": {},
+    "textExtendedBadges": {}
+    }
+    },
+    "aggregatedDiscountInfoV3": {
+    "header": "60% OFF",
+    "subHeader": "UPTO ₹120"
+    },
+    "differentiatedUi": {
+    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+    "differentiatedUiMediaDetails": {
+    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+    "lottie": {},
+    "video": {}
+    }
+    },
+    "reviewsSummary": {},
+    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+    "restaurantOfferPresentationInfo": {}
+    },
+    "analytics": {},
+    "cta": {
+    "link": "swiggy://menu?restaurant_id=492264",
+    "text": "RESTAURANT_MENU",
+    "type": "DEEPLINK"
+    }
+    },
+    {
+    "info": {
+    "id": "88439",
+    "name": "Hotel Regent",
+    "cloudinaryImageId": "ibjmivcr0x9lpgg66alz",
+    "locality": "Shivarampet",
+    "areaName": "Yadavgiri",
+    "costForTwo": "₹300 for two",
+    "cuisines": [
+    "Chinese",
+    "North Indian",
+    "Burgers",
+    "Biryani"
+    ],
+    "avgRating": 2.9,
+    "feeDetails": {
+    "restaurantId": "88439",
+    "fees": [
+    {
+    "name": "BASE_DISTANCE",
+    "fee": 2100
+    },
+    {
+    "name": "BASE_TIME"
+    },
+    {
+    "name": "ANCILLARY_SURGE_FEE"
+    }
+    ],
+    "totalFee": 2100
+    },
+    "parentId": "20985",
+    "avgRatingString": "2.9",
+    "totalRatingsString": "10K+",
+    "sla": {
+    "deliveryTime": 21,
+    "lastMileTravel": 3.5,
+    "serviceability": "SERVICEABLE",
+    "slaString": "21 mins",
+    "lastMileTravelString": "3.5 km",
+    "iconType": "ICON_TYPE_EMPTY"
+    },
+    "availability": {
+    "nextCloseTime": "2023-11-24 00:00:00",
+    "opened": true
+    },
+    "badges": {},
+    "isOpen": true,
+    "type": "F",
+    "badgesV2": {
+    "entityBadges": {
+    "imageBased": {},
+    "textExtendedBadges": {},
+    "textBased": {}
+    }
+    },
+    "aggregatedDiscountInfoV3": {
+    "header": "₹150 OFF",
+    "subHeader": "ABOVE ₹349",
+    "discountTag": "FLAT DEAL"
+    },
+    "differentiatedUi": {
+    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+    "differentiatedUiMediaDetails": {
+    "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+    "lottie": {},
+    "video": {}
+    }
+    },
+    "reviewsSummary": {},
+    "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+    "restaurantOfferPresentationInfo": {}
+    },
+    "analytics": {},
+    "cta": {
+    "link": "swiggy://menu?restaurant_id=88439",
+    "text": "RESTAURANT_MENU",
+    "type": "DEEPLINK"
+    }
+    }
+  
+  
+]
