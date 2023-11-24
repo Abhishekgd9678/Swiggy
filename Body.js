@@ -1,13 +1,16 @@
+
 import { useEffect, useState } from "react";
 import Restaurant from "./Restaurant"
-import data from "./restaurantdata.json";
+// import data from "./restaurantdata.json";
 const Body=()=>
 {
 
-    const [res,setres]=useState(data);
-    useEffect(()=>{
+    const [res,setres]=useState([]);
+    useEffect(()=>{ 
         fetchData();
     },[]);
+
+ 
     
     const fetchData = async () => {
         try {
@@ -16,19 +19,23 @@ const Body=()=>
             const restaurants = finalData?.data?.success?.cards[1]?.gridWidget?.gridElements?.infoWithStyle?.restaurants;
             if (restaurants) {
                 setres(restaurants);
+                console.log(restaurants)
             }
-        } catch (error) {
+        } 
+        catch (error) {
             console.error("Error fetching data:", error);
         }
+        
     };
 
     function filter(){
-        const data=res.filter((x)=>x.info.avgRating>4);
-        setres(data);
+        const datanew=res.filter((x)=>x.info.avgRating>4);
+        setres(datanew);
     }
     function unfilter()
     {
-        setres(data);
+        fetchData();
+    
     }
 
     return (
@@ -46,8 +53,8 @@ const Body=()=>
              
                         
                         
-                    </div>
-                    </div>
+                </div>
+            </div>
 
         </>
 
