@@ -1,9 +1,26 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Restaurant from "./Restaurant"
 import data from "./restaurantdata.json";
-const Body=()=>{
+const Body=()=>
+{
 
     const [res,setres]=useState(data);
+    useEffect(()=>{
+        fetchData();
+    },[]);
+    
+    const fetchData = async () => {
+        try {
+            const response = await fetch("https://www.swiggy.com/mapi/homepage/getCards?lat=12.28475216724439&lng=76.64010163396597");
+            const finalData = await response.json();
+            const restaurants = finalData?.data?.success?.cards[1]?.gridWidget?.gridElements?.infoWithStyle?.restaurants;
+            if (restaurants) {
+                setres(restaurants);
+            }
+        } catch (error) {
+            console.error("Error fetching data:", error);
+        }
+    };
 
     function filter(){
         const data=res.filter((x)=>x.info.avgRating>4);
