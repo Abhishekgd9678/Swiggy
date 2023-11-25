@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Restaurant from "./Restaurant";
 import Shimmer from "./Shimmer";
+import { Link } from "react-router-dom";
 
 const Body = () => {
   const [searchtext, settext] = useState("");
@@ -21,6 +22,7 @@ const Body = () => {
       const restaurants =
         finalData?.data.cards[2].card.card.gridElements.infoWithStyle
           .restaurants;
+    
       if (restaurants){
 
         setres(restaurants);
@@ -79,7 +81,8 @@ const Body = () => {
         <h4>{err}</h4>
         <div className="Restaurants">
           {filterres.map((x) => {
-            return <Restaurant {...x} key={x.info.id} />;
+         
+            return <Link key={x.info.id} to={"/res/"+x.info.id}><Restaurant {...x}  /></Link>;
           })}
         </div>
       </div>

@@ -40,12 +40,20 @@
 }
 .Nav-items > * {
   margin: 10;
+
+}
+.Left-part>h3>*{
+  color: white;
 }
 
 .Nav-items > li:hover {
   font-size: 30px;
-  cursor: pointer;
+  cursor: pointer; 
 }
+.Nav-items>li>*{
+  color: white;
+}
+
 
 .Restaurants {
   background: linear-gradient(to right, #435585, #c1c4cd);
@@ -56,6 +64,13 @@
   margin: 2%;
   justify-content: space-evenly;
 }
+.Restaurants>*{
+  color: rgb(5, 5, 5);
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
 
 .res-card {
   flex-wrap: wrap;
@@ -63,8 +78,9 @@
   text-align: center;
   padding: 2%;
   margin: 1%;
+  height: 700;
  
-  width: 300px;
+  width: 390px;
   background: linear-gradient(to right, #9eb8d9, #7c93c3);
 }
 .res-card > img {
