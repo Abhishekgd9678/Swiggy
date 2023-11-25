@@ -88,6 +88,20 @@
   margin: 2%;
   justify-content: space-evenly;
 }
+.error{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.error>img
+{
+ height: 400px;
+}
+
+
+
 .Shimmercard{
   height:350px;
   flex-wrap: wrap;

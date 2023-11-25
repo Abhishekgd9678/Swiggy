@@ -21,10 +21,11 @@ const Body = () => {
       const restaurants =
         finalData?.data.cards[2].card.card.gridElements.infoWithStyle
           .restaurants;
-      if (restaurants) {
-        
+      if (restaurants){
+
         setres(restaurants);
         setfilterres(restaurants);
+         
 
         seterr("");
       }
