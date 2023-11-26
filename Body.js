@@ -8,6 +8,8 @@ const Body = () => {
   const [filterres, setfilterres] = useState([]);
   const [res, setres] = useState([]);
   const [err, seterr] = useState("");
+  const [sty, setsty] = useState("btn-dark");
+  const[sty2,setsty2]=useState("btn-dark")
   useEffect(() => {
     fetchData();
   }, []);
@@ -33,15 +35,25 @@ const Body = () => {
       console.error("Error fetching data:", error);
     }
   };
-
+  const handleKeyPress = (e) => {
+    if (e.key === "Enter") {
+      filterdata();
+    }
+  };
   function filter() {
     const datanew = res.filter((x) => x.info.avgRating > 4.2);
-seterr("")
+    seterr("");
     setfilterres(datanew);
+    if (sty === "btn-dark") {
+      setsty("btn-warning");
+    }
+    setsty2("btn-dark")
   }
   function unfilter() {
+    setsty("btn-dark")
+    setsty2("btn-warning");
     setfilterres(res);
-    seterr("")
+    seterr("");
   }
 
   if (res.length === 0) {
@@ -63,7 +75,6 @@ seterr("")
   return (
     <>
       <div className="Body">
-     
         <div className="Search-Bar">
           <input
             type="text"
@@ -72,17 +83,23 @@ seterr("")
               var x = e.target.value;
               settext(x);
             }}
+            onKeyPress={handleKeyPress}
           ></input>
-          <button className="btn btn-primary" onClick={filterdata}>Search</button>
+          <button className="btn btn-outline-dark" onClick={filterdata}>
+            Search
+          </button>
 
-          <button className="btn btn-dark" onClick={filter}>Top Rated Restaurants</button>
-          <button className="btn btn-dark" onClick={unfilter}>All Restaurants</button>
+          <button className={"btn " + sty} onClick={filter}>
+            Top Rated Restaurants
+          </button>
+          <button className={"btn "+sty2} onClick={unfilter}>
+            All Restaurants
+          </button>
         </div>
-   <div className="unfound">
-   <h4>{err}</h4>
-   </div>
+        <div className="unfound">
+          <h4>{err}</h4>
+        </div>
         <div className="Restaurants">
-    
           {filterres.map((x) => {
             return (
               <Link
