@@ -22,12 +22,10 @@ const Body = () => {
       const restaurants =
         finalData?.data.cards[2].card.card.gridElements.infoWithStyle
           .restaurants;
-    
-      if (restaurants){
 
+      if (restaurants) {
         setres(restaurants);
         setfilterres(restaurants);
-         
 
         seterr("");
       }
@@ -37,12 +35,13 @@ const Body = () => {
   };
 
   function filter() {
-    const datanew = res.filter((x) => x.info.avgRating > 4);
-
+    const datanew = res.filter((x) => x.info.avgRating > 4.2);
+seterr("")
     setfilterres(datanew);
   }
   function unfilter() {
     setfilterres(res);
+    seterr("")
   }
 
   if (res.length === 0) {
@@ -64,6 +63,7 @@ const Body = () => {
   return (
     <>
       <div className="Body">
+     
         <div className="Search-Bar">
           <input
             type="text"
@@ -73,16 +73,26 @@ const Body = () => {
               settext(x);
             }}
           ></input>
-          <button onClick={filterdata}>Search</button>
+          <button className="btn btn-primary" onClick={filterdata}>Search</button>
 
-          <button onClick={filter}>Top Rated Restaurants</button>
-          <button onClick={unfilter}>All Restaurants</button>
+          <button className="btn btn-dark" onClick={filter}>Top Rated Restaurants</button>
+          <button className="btn btn-dark" onClick={unfilter}>All Restaurants</button>
         </div>
-        <h4>{err}</h4>
+   <div className="unfound">
+   <h4>{err}</h4>
+   </div>
         <div className="Restaurants">
+    
           {filterres.map((x) => {
-         
-            return <Link key={x.info.id} to={"/res/"+x.info.id}><Restaurant {...x}  /></Link>;
+            return (
+              <Link
+                className="res-link"
+                key={x.info.id}
+                to={"/res/" + x.info.id}
+              >
+                <Restaurant {...x} />
+              </Link>
+            );
           })}
         </div>
       </div>

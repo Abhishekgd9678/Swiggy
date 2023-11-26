@@ -4,8 +4,8 @@
   flex-wrap: wrap;
   justify-content: space-between;
 
-  background: linear-gradient(to right, #2d9596, #265073);
-  color: white;
+
+
   font-size: larger;
   border: 2px solid black;
 }
@@ -31,7 +31,7 @@
   flex-wrap: wrap;
 }
 .Nav-items {
-  flex-wrap: wrap;
+
   display: flex;
   list-style: none;
   justify-content: center;
@@ -39,63 +39,50 @@
   flex-direction: row;
 }
 .Nav-items > * {
-  margin: 10;
-
+  margin-right:20;
 }
-.Left-part>h3>*{
-  color: white;
+.Left-part > h3 > * {
+  color: black;
 }
 
 .Nav-items > li:hover {
   font-size: 30px;
-  cursor: pointer; 
-}
-.Nav-items>li>*{
-  color: white;
-}
-
-
-.Restaurants {
-  background: linear-gradient(to right, #435585, #c1c4cd);
-
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  margin: 2%;
-  justify-content: space-evenly;
-}
-.Restaurants>*{
-  color: rgb(5, 5, 5);
-  margin: 10px;
-  display: flex;
-  flex-wrap: wrap;
-
-}
-
-.res-card {
-  flex-wrap: wrap;
   cursor: pointer;
-  text-align: center;
+}
+.Nav-items > li > * {
+  color: black;
+  text-decoration: none;
+}
+
+.Restaurants 
+{
+
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  justify-content: space-evenly;
+}
+.Restaurants > * {
+  color: rgb(5, 5, 5);
   padding: 2%;
-  margin: 1%;
-  height: 700;
- 
-  width: 390px;
-  background: linear-gradient(to right, #9eb8d9, #7c93c3);
-}
-.res-card > img {
-  height: 60%;
-  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.res-card:hover {
-  border: 1px solid black;
+.res-link {
+  text-decoration: none;
 }
 
-.Search-Bar{
-    margin:10px;
+.Search-Bar {
+  margin: 10px;
 }
-.Shimmer-container{
+.Search-Bar > * {
+  margin: 10px;
+}
+
+.Shimmer-container {
   background: linear-gradient(to right, #435585, #c1c4cd);
 
   display: flex;
@@ -104,28 +91,57 @@
   margin: 2%;
   justify-content: space-evenly;
 }
-.error{
+
+.error {
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.error>img
-{
- height: 400px;
+
+.error > img {
+  height: 400px;
 }
 
+.unfound {
+  padding-left: 15px;
+}
 
-
-.Shimmercard{
-  height:350px;
+.Shimmercard {
+  height: 350px;
   flex-wrap: wrap;
   cursor: pointer;
   text-align: center;
   padding: 2%;
   margin: 1%;
- 
+
   width: 300px;
   background: linear-gradient(to right, #9eb8d9, #7c93c3);
+}
+.food-mandi > * {
+  text-decoration: none;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.card-img-top {
+  height: 300px;
+
+}
+.res-cardss {
+  display: flex;
+  justify-content: center;
+
+  margin: 2%;
+}
+.res-name{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.res-image-head{
+  border:none;
 }
