@@ -6,7 +6,7 @@ const Header=()=>{
         <div className="Header">
             <div className="Left-part">
                  <img src="https://img.freepik.com/free-vector/food-shopping-logo-template-design_460848-10299.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1699833600&semt=ais" />
-                <h3 className="food-mandi"><Link to="/">Food Mandi</Link></h3>
+                <h3 className="food-mandi"><Link to="/"> Food Mandi</Link></h3>
             </div>
         
             <div className="Right-part">
