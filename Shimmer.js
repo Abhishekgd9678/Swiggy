@@ -1,30 +1,21 @@
+import Card from "./shimmercard";
+
 const Shimmer =()=>
 {
     return(
         <>
         <div  className="Shimmer-container">
-         <div className="Shimmercard">
-
-         </div>
-         <div className="Shimmercard">
-            
-         </div>
-         <div className="Shimmercard">
-            
-         </div>
-         <div className="Shimmercard">
-            
-         </div>
-         <div className="Shimmercard">
-            
-         </div>
-         <div className="Shimmercard">
-            
-         </div>
-
-         <div className="Shimmercard">
-            
-         </div>
+         <Card/>
+         <Card/>     
+         <Card/>
+         <Card/>
+         <Card/>
+         <Card/>     
+         <Card/>
+         <Card/>
+         <Card/>
+         <Card/>     
+       
         </div>
         </>
     )

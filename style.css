@@ -82,15 +82,6 @@
   margin: 10px;
 }
 
-.Shimmer-container {
-  background: linear-gradient(to right, #435585, #c1c4cd);
-
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  margin: 2%;
-  justify-content: space-evenly;
-}
 
 .error {
   height: 100%;
@@ -108,26 +99,16 @@
   padding-left: 15px;
 }
 
-.Shimmercard {
-  height: 350px;
-  flex-wrap: wrap;
-  cursor: pointer;
-  text-align: center;
-  padding: 2%;
-  margin: 1%;
 
-  width: 300px;
-  background: linear-gradient(to right, #9eb8d9, #7c93c3);
-}
 .food-mandi > * {
   text-decoration: none;
 }
-.card-body {
+.res-body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
-.card-img-top {
+.res-img-top {
   height: 300px;
 
 }
@@ -145,3 +126,21 @@
 .res-image-head{
   border:none;
 }
+
+.Shimmer-container {
+  display: flex;
+  flex-wrap: wrap;  
+  margin: 1rem;
+
+  padding: 2rem;
+
+  
+ 
+}
+
+.shimmer-card{
+  margin: 5%;
+  height: 300px;
+}
+
+

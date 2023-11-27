@@ -12,8 +12,8 @@ const styles={
     return (
         <>
         <div className="card res-card" style={styles}>
-        <img className="card-img-top" src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/"+props.info.cloudinaryImageId} alt="Card image cap"/>
-        <div className="card-body">
+        <img className="card-img-top  res-img-top" src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/"+props.info.cloudinaryImageId} alt="Card image cap"/>
+        <div className="card-body res-body">
         <h5 className="card-title">Name:{name}</h5>
         <p className="card-text">Rating:{avgRating}</p>
 
