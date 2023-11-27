@@ -2,8 +2,13 @@ import { useEffect, useState } from "react";
 import Restaurant from "./Restaurant";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
+import useOnlineStatus from "./utils/useOnlineStatus";
+import Offlinepage from "./offlinepage";
+
+
 
 const Body = () => {
+  const onlinestatus=useOnlineStatus();
   const [searchtext, settext] = useState("");
   const [filterres, setfilterres] = useState([]);
   const [res, setres] = useState([]);
@@ -72,6 +77,14 @@ const Body = () => {
     }
   }
 
+
+  if(!onlinestatus)
+  {
+    return(
+      <Offlinepage/>
+    )
+  }
+
   return (
     <>
       <div className="Body">
@@ -85,16 +98,18 @@ const Body = () => {
             }}
             onKeyPress={handleKeyPress}
           ></input>
+
           <button className="btn btn-outline-dark" onClick={filterdata}>
             Search
           </button>
-
+       
           <button className={"btn " + sty} onClick={filter}>
             Top Rated Restaurants
           </button>
           <button className={"btn "+sty2} onClick={unfilter}>
             All Restaurants
           </button>
+         
         </div>
         <div className="unfound">
           <h4>{err}</h4>

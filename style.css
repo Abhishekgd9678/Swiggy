@@ -3,12 +3,9 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-
-
-
   font-size: larger;
-
 }
+
 .Left-part {
   flex-wrap: wrap;
   flex-direction: row;
@@ -16,6 +13,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .Left-part > * {
   margin: 10;
 }
@@ -31,7 +29,6 @@
   flex-wrap: wrap;
 }
 .Nav-items {
-
   display: flex;
   list-style: none;
   justify-content: center;
@@ -39,7 +36,7 @@
   flex-direction: row;
 }
 .Nav-items > * {
-  margin-right:20;
+  margin-right: 20;
 }
 .Left-part > h3 > * {
   color: black;
@@ -54,10 +51,7 @@
   text-decoration: none;
 }
 
-.Restaurants 
-{
-
-
+.Restaurants {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -82,7 +76,6 @@
   margin: 10px;
 }
 
-
 .error {
   height: 100%;
   display: flex;
@@ -99,7 +92,6 @@
   padding-left: 15px;
 }
 
-
 .food-mandi > * {
   text-decoration: none;
 }
@@ -110,7 +102,6 @@
 }
 .res-img-top {
   height: 300px;
-
 }
 .res-cardss {
   display: flex;
@@ -118,29 +109,55 @@
 
   margin: 2%;
 }
-.res-name{
+.res-name {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
-.res-image-head{
-  border:none;
+.res-image-head {
+  border: none;
 }
 
 .Shimmer-container {
   display: flex;
-  flex-wrap: wrap;  
+  flex-wrap: wrap;
   margin: 1rem;
 
   padding: 2rem;
-
-  
- 
 }
 
-.shimmer-card{
+.offlinepage {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shimmer-card {
   margin: 5%;
   height: 300px;
+  width: auto;
 }
-
-
+.about-car{
+ margin: 2%;
+ margin-top:10px;
+ background-color: antiquewhite;
+ height: 100vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.about-card{
+  text-align: center;
+  height: 80%;
+  width: 80%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+  background-color: wheat;
+ 
+}
+#about-logo{
+  margin-bottom:50px ;
+  border-radius: 50%;
+}

@@ -1,21 +1,11 @@
-import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import Url from "./urls";
+
+import useResMenu from "./utils/useResMenu";
 import Shimmer from "./Shimmer";
 const Menu = () => {
-  const [menu, setmenu] = useState("");
   const { id } = useParams();
 
-  async function fetchmenu() {
-    const data = await fetch(Url + id);
-    const finaldata = await data.json();
-    setmenu(finaldata);
-    console.log(finaldata);
-  }
-
-  useEffect(() => {
-    fetchmenu();
-  }, []);
+  const menu = useResMenu(id);
 
   if (menu.length === 0) {
     return <Shimmer />;
@@ -39,7 +29,6 @@ const Menu = () => {
             <h5 className="card-title">
               Restaurant Name : {menu?.data?.cards[0]?.card?.card?.info?.name}
             </h5>
-         
           </div>
         </div>
 
@@ -58,7 +47,6 @@ const Menu = () => {
                 }
               )}
             </li>
-          
           </ul>
           <ul className="list-group list-group-flush">
             <li className="list-group-item">
@@ -73,9 +61,7 @@ const Menu = () => {
                 }
               )}
             </li>
-          
           </ul>
-         
         </div>
       </div>
     </>

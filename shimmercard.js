@@ -14,12 +14,12 @@ const Card=()=>
     <p className="card-text"></p>
   </div>
   <ul className="list-group list-group-flush">
-  <p class="card-text placeholder-glow">
-      <span class="placeholder col-7"></span>
-      <span class="placeholder col-4"></span>
-      <span class="placeholder col-4"></span>
-      <span class="placeholder col-6"></span>
-      <span class="placeholder col-8"></span>
+  <p className="card-text placeholder-glow">
+      <span className="placeholder col-4"></span>
+      <span className="placeholder col-4"></span>
+      <span className="placeholder col-6"></span>
+      <span className="placeholder col-8"></span>
+      <span className="placeholder col-7"></span>
     </p>
   </ul>
 
