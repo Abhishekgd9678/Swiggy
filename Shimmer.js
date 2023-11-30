@@ -8,7 +8,9 @@ const Shimmer =()=>
          <Card/>
          <Card/>     
          <Card/>
+
          <Card/>
+         
          <Card/>
          <Card/>     
          <Card/>
