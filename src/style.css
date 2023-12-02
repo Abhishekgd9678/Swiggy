@@ -1,3 +1,7 @@
+
+
+
+
 .Header {
   display: flex;
   flex-direction: row;
@@ -70,10 +74,12 @@
 }
 
 .Search-Bar {
+  
   margin: 10px;
 }
 .Search-Bar > * {
   margin: 10px;
+  border: 1px solid black;
 }
 
 .error {

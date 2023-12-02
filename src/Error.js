@@ -1,5 +1,5 @@
 import { useRouteError } from "react-router-dom"
-import dog from './images/1.png'
+import dog from '../images/1.png'
 
 
 const Error=()=> {

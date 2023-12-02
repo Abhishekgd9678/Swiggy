@@ -1,4 +1,4 @@
-import Url from "../urls";
+import Url from "../src/urls";
 import { useState ,useEffect} from "react"
 
 const useResMenu=(id)=>{
@@ -12,7 +12,7 @@ const useResMenu=(id)=>{
         const data = await fetch(Url + id);
         const finaldata = await data.json();
         setmenu(finaldata);
-        console.log(finaldata);
+       
       }
 
     return menu;

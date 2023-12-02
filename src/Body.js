@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Restaurant from "./Restaurant";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
-import useOnlineStatus from "./utils/useOnlineStatus";
+import useOnlineStatus from "../utils/useOnlineStatus";
 import Offlinepage from "./offlinepage";
 
 
@@ -122,7 +122,7 @@ const Body = () => {
                 key={x.info.id}
                 to={"/res/" + x.info.id}
               >
-                <Restaurant {...x} />
+              <Restaurant {...x}  />
               </Link>
             );
           })}
