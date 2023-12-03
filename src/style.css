@@ -167,3 +167,13 @@
   margin-bottom:50px ;
   border-radius: 50%;
 }
+
+
+.menu-image{
+
+  width: 250px;
+
+}
+.menu-image>img{
+width: 100%;
+}

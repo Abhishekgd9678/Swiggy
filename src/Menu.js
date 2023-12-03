@@ -16,7 +16,7 @@ const Menu = () => {
   const rate=(menu.data.cards[0].card.card.info.costForTwo/100)
 
 
-
+console.log(menu);
 
   return(
     <>
@@ -26,7 +26,7 @@ const Menu = () => {
     <h5>{rate} For Two</h5>
     </div>
     <div>
-      {cat.map(x=>{return <ResSection data={x} res={[name,rating,rate]}/>})}
+      {cat.map((x,index)=>{return <ResSection key={index} data={x} />})}
     </div>
     </>
   ) ;
